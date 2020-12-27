@@ -1,0 +1,138 @@
+* {
+	margin: 0px auto 0px auto;
+}
+body{
+	margin: auto;
+}
+.item{
+	display: inline;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.item-link{
+	color:black;
+	text-decoration: none;
+	margin-left: 70px;
+	margin-right:10px;
+	font-size: 17px;
+	line-height: 14px;
+
+}
+.list{
+	padding-left: 43px;
+	padding-top: 23px;
+	margin: 0;
+	font-size: 16px;
+}
+header{	
+	display: flex;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	height: 73px;
+	border: 3px solid #000000;
+	max-width: 1434px;
+	width: 99%;
+}
+.buttons{
+	padding-top: 13px;
+}
+.but,.but2{
+	border: none;
+	border-radius: 5px;
+	background: black !important;
+	color: white;
+	margin-left: 64px;
+	height: 46px;
+	width: 140px;
+}
+footer{ 
+	margin-top: 59px;
+	max-width: 1440px;
+	width: 100%;
+	height: 178px;
+	background: #C4C4C4;
+}
+.footerinfo{
+	padding-left: 78px;
+	padding-top: 44px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+
+}
+.galery>h2{
+	padding-top: 59px;
+	padding-bottom: 0px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 56px;
+	line-height: 66px;
+	text-align: center;
+}
+.galery>img{
+	display: flex;
+	padding-top: 59px;
+	max-width: 1257px;
+	max-height: 929px;
+	width: 100%;
+}
+@media(max-width: 1385px){
+	.but,.but2{
+		height:25px;
+		width: 145px;
+		margin: 0px;
+	}
+	.but2{
+		margin-top: 2px;
+	}
+	.buttons{
+		width: 145px;
+		margin-right: 10px;
+	}
+}
+@media(max-width: 1175px){
+.item{
+		display:block;
+		 flex-direction: column;
+		 padding-top: 10px;
+	}
+.item-link{
+	margin-left: 0px;
+	margin-right:0px;
+
+}
+.list{
+	padding-left: 25px;
+	font-size: 28px;
+	font-weight: bold;
+}
+header{	
+	height: 270px;
+	display: flex;
+	justify-content: space-between;
+	}
+.buttons{
+	padding-top: 60px;
+	padding-right: 70px;
+	margin-left: 0px;
+}
+.but,.but2{
+	height: 76px;
+	width: 210px;
+}
+}
+@media(max-width: 768px){
+	body{
+		max-width: 767px;
+		width: 99%;
+	}	
+}
+@media(max-width: 480px){
+	body{
+		min-width: 480px;
+		width: 99%;
+	}
+}
